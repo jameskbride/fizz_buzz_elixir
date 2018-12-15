@@ -19,5 +19,9 @@ defmodule FizzBuzzTest do
     test "it returns the number back for any other number" do
       assert FizzBuzz.evaluate(2) == "2"
     end
+
+    test "it returns the number 0 back when it is passed" do
+      assert FizzBuzz.evaluate(0) == "0"
+    end
   end
 end
