@@ -11,5 +11,9 @@ defmodule FizzBuzzTest do
     test "it returns \"buzz\" for numbers divisible by 5" do
       assert FizzBuzz.evaluate(5) == "buzz"
     end
+
+    test "it returns \"fizz buzz\" for numbers divisible by 3 and 5" do
+      assert FizzBuzz.evaluate(15) == "fizz buzz"
+    end
   end
 end
